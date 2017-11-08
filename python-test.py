@@ -1,5 +1,5 @@
 import os
-import pyttsx
+import pyttsx3
 import requests
 from flask import Flask
 from flask import jsonify
@@ -37,7 +37,7 @@ class TextToSpeech(object):
         self.speed = speed
 
     def speak(self, text):
-        engine = pyttsx.init()
+        engine = pyttsx3.init()
         engine.setProperty('voice', 'german')
         engine.setProperty('rate', engine.getProperty('rate') - self.speed)
         engine.say(text)
