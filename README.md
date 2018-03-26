@@ -1,4 +1,5 @@
 # noxic-offender
+pip3 install -r /path/to/requirements.txt
 
 ## Requirements
 Runs with Python 3.
