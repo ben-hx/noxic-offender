@@ -1,0 +1,4 @@
+requests==2.18.4
+pyttsx3==2.6
+Flask==0.12.2
+pygame==1.9.3
